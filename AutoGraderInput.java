@@ -7,7 +7,11 @@ public class AutoGraderInput {
     public static double getFirstNumber() {
         return scanner.nextDouble();
     }
-
+    //Method to get the operator
+    public static String getOperator(){
+        return scanner.next();
+    }
+    
     // Method to get the second input
     public static double getSecondNumber() {
         return scanner.nextDouble();
