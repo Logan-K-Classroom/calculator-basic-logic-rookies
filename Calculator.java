@@ -1,6 +1,10 @@
 
 public class Calculator {
     public static void main(String[] args) {
-        //NOT IN USE
+        //Grabs inputs from the autograder
+        double firstNumber = AutoGraderInput.getFirstNumber();
+        String operator = AutoGraderInput.getOperator();
+        double secondNumber = AutoGraderInput.getSecondNumber();
+        
     }
 }
